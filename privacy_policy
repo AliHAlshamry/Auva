@@ -1,0 +1,27 @@
+Privacy Policy
+Our general policy regarding your data is to store as much as needed and as little as possible. This section will try to explain what personal data we store and how we handle that.
+What we store
+Account data
+Your user name, a hash of your password, the date of your account creation and your last login (To automatically delete inactive accounts.)
+For users of our Auva Directory service we store the combination of your Jabber ID and user name.
+Messages
+Offline messages. If someone sends you a message while you are offline that message will be stored until you get back online.
+Archive. By default we will be keeping an archive of your messages for later retrieval by yourself. This can come in handy if you log in with a new device and want access to your message history and is also required if you want to use the OMEMO encryption with multiple devices. You can opt-out of this by setting your server-side archiving preferences with your XMPP client.
+Files
+Every file you share with a contact or a conference will be uploaded and stored for later retrieval by the recipients.
+Other data
+A list of your Jabber contacts (Roster, Buddylist). This list is maintained by you. This is not the Android address book that gets synchronized with our server. You decide who goes on that list and who gets deleted.
+What we don’t store
+Your IP address or any information that could be inferred by that address like your location.
+Your Android address book.
+How we handle your data
+If you delete your account all related information will be deleted with it. Including your files and messages.
+All backups are encrypted.
+If your Android phone goes into a standby state and loses the connection to our server we will send a wake up signal to your device over Google’s FCM. This wake up signal does not contain any personal information. Find a very detailed technical explanation here.
+We hand your Jabber ID or Auva username out to any Auva  user who knows your user name.
+Even though we will never look at the contents of your messages or files nor process them in an automated fashion we strongly advise you to use the OMEMO encryption whenever possible.
+________________________________________
+Auva Server
+The Auva Directory server is inherently a centralized entity and there is no control mechanism to guarantee that we actually run the same code we publish. Nonetheless the source code is available on Github for review.
+If you are interested in running the Ejabberd Server to build your own XMPP-based instant messaging system with a simple and robust phone number discovery you may contact Daniel Gultsch for commercial support.
+
